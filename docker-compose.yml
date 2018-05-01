@@ -1,0 +1,26 @@
+---
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      args:
+        NODE_ENV: production
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      MONGODB_URI: mongodb://mongo/cha-notifier
+    ports:
+      - 3000:3000
+    links:
+      - mongo
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:3.6.3
+    volumes:
+      - mongo:/data/db
+
+volumes:
+  mongo:
