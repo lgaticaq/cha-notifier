@@ -18,7 +18,7 @@ services:
     depends_on:
       - mongo
   mongo:
-    image: mongo:3.6.3
+    image: mongo:3.6.3@sha256:d969194a7c4dcd817cae5dc726b1493547a3ad3f1b30f7f58857adc9ae6a4483
     volumes:
       - mongo:/data/db
 
