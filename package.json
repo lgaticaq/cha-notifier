@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/lgaticaq/cha-notifier#readme",
   "dependencies": {
-    "@godaddy/terminus": "2.2.0",
+    "@godaddy/terminus": "2.2.1",
     "body-parser": "1.18.3",
     "cha-price": "2.0.0",
     "express": "4.16.3",
