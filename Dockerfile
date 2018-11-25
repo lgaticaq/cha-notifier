@@ -1,4 +1,4 @@
-FROM lgatica/node-build:10-onbuild@sha256:1b40c4bc1c4f48abe81e4e1a54255cfc386bb64030ebe76e21d7d8557468281d
+FROM lgatica/node-build:10-onbuild@sha256:290b2070768fd69816b629055173cd18a05f739f86e2ce75a93d267a81602386
 
 RUN apk add --no-cache curl
 
