@@ -54,7 +54,7 @@
     "lint-staged": "7.3.0",
     "nodemon": "1.18.7",
     "prettier-standard": "8.0.1",
-    "socket.io-client": "2.1.1"
+    "socket.io-client": "2.2.0"
   },
   "eslintConfig": {
     "extends": "standard",
