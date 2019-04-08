@@ -37,7 +37,7 @@
     "body-parser": "1.18.3",
     "cha-price": "2.0.1",
     "express": "4.16.4",
-    "helmet": "3.15.0",
+    "helmet": "3.16.0",
     "mongoose": "5.4.23",
     "morgan": "1.9.1",
     "raven": "2.6.4",
