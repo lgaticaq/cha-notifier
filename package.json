@@ -45,7 +45,7 @@
     "web-push": "3.3.5"
   },
   "devDependencies": {
-    "eslint-config-standard": "11.0.0",
+    "eslint-config-standard": "12.0.0",
     "eslint-plugin-import": "2.18.0",
     "eslint-plugin-node": "9.1.0",
     "eslint-plugin-promise": "3.8.0",
